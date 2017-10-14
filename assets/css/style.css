@@ -1,0 +1,25 @@
+* {
+	padding: 15px;
+	text-align: center;
+}
+
+.container {
+	background-color: yellow;
+}
+
+#row-1 {
+		background-color: pink;
+
+}
+
+#row-2 {
+		background-color: orange;
+		height: 300px;
+
+}
+
+#row-3 {
+		background-color: purple;
+		height: 150px;
+
+}
