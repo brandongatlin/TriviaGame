@@ -1,57 +1,60 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Geography Trivia</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
+    <title>Geography Trivia</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
+
 <body>
+    <container class="container">
+        <div class="row" id="row-1">
+            <div class="col-md-5 col-sm-12" id="questionNumber">
+                <div id="question-number-box">
+                    <p>Question 1 of 10</p>
+                </div>
+            </div>
 
-<container class="container">
-
-	<div class="row" id="row-1">
-		<div class="col-md-5 col-sm-12" id="questionNumber">
-			Question 1 of 10
-		</div>
-		<div class="col-md-2 col-sm-12" id="timerBox">
-			timer here
-		</div>
-		<div class="col-md-5 col-sm-12" id="answersCorrect">
-			# correct answers here
-		</div>
-	</div>
-
-	<div class="row" id="row-2">
-		<h1 id="triviaQuestion">Insert Question Here</h1>
-	</div>
-
-	<div class="row" id="row-3">
-		
-		<div class="col-lg-3 col-md-6 col-s-12" id="answerOne">
-			<p>answerOne</p>
-		</div>
-
-		<div class="col-lg-3 col-md-6 col-s-12" id="answerTwo">
-			<p>answerTwo</p>
-		</div>
-		<div class="col-lg-3 col-md-6 col-s-12" id="answerThree">
-			<p>answerThree</p>
-		</div>
-
-		<div class="col-lg-3 col-md-6 col-s-12" id="answerFour">
-			<p>answerFour</p>
-		</div>
-
-
-
-	</div>
-
-
-
-
-
-</container>
-
+            <div class="col-md-2 col-sm-12" id="timerBox">
+            	<div id="timer-box">
+                	timer here
+            	</div>
+            </div>
+            <div class="col-md-5 col-sm-12" id="answersCorrect">
+            	<div id="correct-answers-box">
+                	<p>0 of 10 correct</p>
+            	</div>
+            </div>
+        </div>
+        <div class="row" id="row-2">
+        	<div id="question-box">
+            	<h1 id="triviaQuestion">Insert Question Here</h1>
+            </div>
+        </div>
+        <div class="row" id="row-3">
+            <div class="col-lg-3 col-md-6 col-s-12" id="answerOne">
+            	<div class="answer-boxes" id="answer-one-box">
+                	<p>answerOne</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-s-12" id="answerTwo">
+                <div class="answer-boxes" id="answer-two-box">
+                	<p>answerTwo</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-s-12" id="answerThree">
+                <div class="answer-boxes" id="answer-three-box">
+                	<p>answerThree</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-s-12" id="answerFour">
+                <div class="answer-boxes" id="answer-four-box">
+                	<p>answerFour</p>
+                </div>
+            </div>
+        </div>
+    </container>
 </body>
+
 </html>
