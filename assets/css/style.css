@@ -7,6 +7,10 @@
 	background-color: yellow;
 }
 
+.answer-boxes {
+	border: 2px black solid;
+}
+
 #row-1 {
 		background-color: pink;
 
