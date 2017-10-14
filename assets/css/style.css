@@ -23,3 +23,19 @@
 		height: 150px;
 
 }
+
+#answerOne {
+		background-color: blue;
+}
+
+#answerTwo {
+		background-color: red;
+}
+
+#answerThree {
+		background-color: green;
+}
+
+#answerFour {
+		background-color: grey;
+}
