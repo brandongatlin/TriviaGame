@@ -10,3 +10,7 @@
 .row {
 	border: 2px black solid;
 }
+
+.button {
+	font-size: 20px;
+}
