@@ -22,3 +22,8 @@
 	background-color: yellow;
 	font-size: 20px;
 }
+
+.radio-inline:checked {
+	background-color: yellow;
+	font-size: 20px;
+}
