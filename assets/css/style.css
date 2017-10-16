@@ -13,7 +13,9 @@
 
 .radio-inline:hover {
 	background-color: yellow;
+	transition: background-color .5s;
 	font-size: 20px;
+	transition: font-size .5s;
 }
 
 #submit-button:hover {
