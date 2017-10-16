@@ -11,6 +11,12 @@
 	border: 2px black solid;
 }
 
-.button {
+.radio-inline:hover {
+	background-color: yellow;
+	font-size: 20px;
+}
+
+#submit-button:hover {
+	background-color: yellow;
 	font-size: 20px;
 }
