@@ -1,8 +1,24 @@
-// test
+// global variables //
+var time = 60;
+var correct = 0;
+var incorrect = 0;
+var unanswered = 0;
+var timer;
 
-$("form").prop("checked", true);
-
-//timer
-window.onload = function() {
-  
-};
+var questions = [
+    { 
+        name: "1. What is the longest river in the world?",
+        choices: ["Nile", "Mississippi", "Ganges", "Amazon"],
+        answer: "Nile"
+    },
+    {
+        name: "2. What is the longest river in the world?",
+        choices: ["Nile", "Mississippi", "Ganges", "Amazon"],
+        answer: "Nile"
+    },
+    {
+        name: "3. What is the longest river in the world?",
+        choices: ["Nile", "Mississippi", "Ganges", "Amazon"],
+        answer: "Nile"
+    }
+];
