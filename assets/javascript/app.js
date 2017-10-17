@@ -57,3 +57,22 @@ var questions = [
         answer: "Beijing"
     }
 ];
+
+// for loop to create html to put questions
+for(var i = 0; i < questions.length; i++){
+
+    var questionDiv = $("<div>");
+    questionDiv.addClass("question-container");
+    questionDiv.append("<h1 class='triviaQuestion'>"+ questions[i].name + "</h1>");
+
+    var answerDiv = $("<div");
+    answerDiv.addClass("answer-container");
+    answerDiv.append("label class='radio-inline'><input type='radio' name='answers" + i + "' value=" + questions[i].choices[j] + ">" + questions[i].choices[j] +"</label>"")
+
+    // nested for loop to create the answer choices
+    for(var j = 0; j < questions[i].choices.length; j++)
+    {
+        quizContainer.append(questionDiv, answerDiv);
+        
+    }
+    
