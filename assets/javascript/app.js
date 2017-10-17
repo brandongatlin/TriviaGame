@@ -12,13 +12,48 @@ var questions = [
         answer: "Nile"
     },
     {
-        name: "2. What is the longest river in the world?",
-        choices: ["Nile", "Mississippi", "Ganges", "Amazon"],
-        answer: "Nile"
+        name: "2. What is the largest lake in the world?",
+        choices: ["Titicaca", "Victoria", "Lake Superior", "Caspian"],
+        answer: "Caspian"
     },
     {
-        name: "3. What is the longest river in the world?",
-        choices: ["Nile", "Mississippi", "Ganges", "Amazon"],
-        answer: "Nile"
+        name: "3. What river passes thru the most countries in the world?",
+        choices: ["Amazon", "Danube", "Yellow", "Nile"],
+        answer: "Danube"
+    }
+    {
+        name: "4. What is the youngest country in the world?",
+        choices: ["South Sudan", "Palau", "East Timor", "Kosovo"],
+        answer: "South Sudan"
+    }
+    {
+        name: "5. What country has the most national languages?",
+        choices: ["Switzerland", "India", "Zimbabwe", "South Africa"],
+        answer: "Zimbabwe"
+    }
+    {
+        name: "6. What is the largest country in the world?",
+        choices: ["Russia", "United States", "Canada", "China"],
+        answer: "Russia"
+    }
+    {
+        name: "7. What country has the most islands?",
+        choices: ["Indonesia", "Canada", "United Kingdom", "Finland"],
+        answer: "Finland"
+    }
+    {
+        name: "8. What is the tallest mountain in Africa?",
+        choices: ["K2", "Kilimangaro", "Everest", "Rushmore"],
+        answer: "Kilimangaro"
+    }
+    {
+        name: "9. What country has the tallest people on average?",
+        choices: ["Denmark", "Germany", "Sudan", "Netherlands"],
+        answer: "Netherlands"
+    }
+    {
+        name: "10. What is the most populated city in the world?",
+        choices: ["Beijing", "Mexico City", "Tokyo", "Mumbai"],
+        answer: "Beijing"
     }
 ];
