@@ -3,12 +3,16 @@
 	text-align: center;
 }
 
+.nav {
+}
+
 #timer-box {
 	background-color: yellow;
+	height: 50px;
 }
 
 .row {
-	border: 2px black solid;
+	border: 1px black solid;
 }
 
 .radio-inline:hover {
@@ -23,7 +27,10 @@
 	font-size: 20px;
 }
 
-.radio-inline:checked {
+#start-button:hover {
 	background-color: yellow;
+	transition: background-color .5s;	
 	font-size: 20px;
+	transition: font-size .5s;
+	
 }
