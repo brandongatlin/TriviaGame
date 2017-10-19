@@ -65,3 +65,49 @@ var questions = [{
 
 //check to see if array of objects is correct
 console.log(questions[0].name) //1. What is the longest river in the world?
+
+//populate questions
+$("#start-button").on("click", function() {
+    $("#triviaQuestion1").text(questions[1].name)
+});
+
+$("#start-button").on("click", function() {
+    $("#triviaQuestion2").text(questions[2].name)
+});
+
+$("#start-button").on("click", function() {
+    $("#triviaQuestion3").text(questions[3].name)
+});
+
+$("#start-button").on("click", function() {
+    $("#triviaQuestion4").text(questions[4].name)
+});
+
+$("#start-button").on("click", function() {
+    $("#triviaQuestion5").text(questions[5].name)
+});
+
+$("#start-button").on("click", function() {
+    $("#triviaQuestion6").text(questions[6].name)
+});
+
+$("#start-button").on("click", function() {
+    $("#triviaQuestion7").text(questions[7].name)
+});
+
+$("#start-button").on("click", function() {
+    $("#triviaQuestion8").text(questions[8].name)
+});
+
+$("#start-button").on("click", function() {
+    $("#triviaQuestion9").text(questions[9].name)
+});
+
+$("#start-button").on("click", function() {
+    $("#triviaQuestion10").text(questions[10].name)
+});
+
+
+
+
+//check answers
