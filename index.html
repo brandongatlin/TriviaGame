@@ -20,53 +20,57 @@
             </div>
         </nav>
         <div class="row" id="row-2">
-            <div id="question-box">
-                <h1 id="triviaQuestion1">1.</h1>
-                <label class="radio-inline" id="1a">
-                    <input type="radio" name="optradio" value="Nile">a
+            <form>
+                <div id="question-box">
+                    <h1 id="triviaQuestion1">1.</h1>
+                    <label class="radio-inline" id="1a">
+                    <input type="radio" name="optradio1" value="Nile">a
                 </label>
-                <label class="radio-inline" id="1b">
-                    <input type="radio" name="optradio" value="Mississippi"> b
+                    <label class="radio-inline" id="1b">
+                    <input type="radio" name="optradio1" value="Mississippi"> b
                 </label>
-                <label class="radio-inline" id="1c">
-                    <input type="radio" name="optradio" value="Ganges"> c
+                    <label class="radio-inline" id="1c">
+                    <input type="radio" name="optradio1" value="Ganges"> c
                 </label>
-                <label class="radio-inline" id="1d">
-                    <input type="radio" name="optradio" value="Amazon"> d
+                    <label class="radio-inline" id="1d">
+                    <input type="radio" name="optradio1" value="Amazon"> d
                 </label>
-            </div>
+                </div>
+            </form>
         </div>
         <div class="row" id="row-3">
-            <div id="question-box">
-                <h1 id="triviaQuestion2">2.</h1>
-                <label class="radio-inline" id="2a">
-                    <input type="radio" name="optradio" value="Titicaca"> a
+            <form>
+                <div id="question-box">
+                    <h1 id="triviaQuestion2">2.</h1>
+                    <label class="radio-inline" id="2a">
+                    <input type="radio" name="optradio2" value="Titicaca"> a
                 </label>
-                <label class="radio-inline" id="2b">
-                    <input type="radio" name="optradio" value="Victoria"> b
+                    <label class="radio-inline" id="2b">
+                    <input type="radio" name="optradio2" value="Victoria"> b
                 </label>
-                <label class="radio-inline" id="2c">
-                    <input type="radio" name="optradio" value="Lake Superior"> c
+                    <label class="radio-inline" id="2c">
+                    <input type="radio" name="optradio2" value="Lake Superior"> c
                 </label>
-                <label class="radio-inline" id="2d">
-                    <input type="radio" name="optradio" value="Caspian"> d
+                    <label class="radio-inline" id="2d">
+                    <input type="radio" name="optradio2" value="Caspian"> d
                 </label>
-            </div>
+                </div>
+            </form>
         </div>
         <div class="row" id="row-4">
             <div id="question-box">
                 <h1 id="triviaQuestion3">3.</h1>
                 <label class="radio-inline" id="3a">
-                    <input type="radio" name="optradio" value="Amazon"> a
+                    <input type="radio" name="optradio3" value="Amazon"> a
                 </label>
                 <label class="radio-inline" id="3b">
-                    <input type="radio" name="optradio" value="Danube"> b
+                    <input type="radio" name="optradio3" value="Danube"> b
                 </label>
                 <label class="radio-inline" id="3c">
-                    <input type="radio" name="optradio" value="Yellow"> c
+                    <input type="radio" name="optradio3" value="Yellow"> c
                 </label>
                 <label class="radio-inline" id="3d">
-                    <input type="radio" name="optradio" value="Nile"> d
+                    <input type="radio" name="optradio3" value="Nile"> d
                 </label>
             </div>
         </div>
@@ -189,11 +193,14 @@
                 </label>
             </div>
         </div>
-        <nav class="navbar navbar-default navbar-fixed-bottom ">
+        <div>
             <div>
-                <input type="submit " value="Submit " id="submit-button ">
+                <h2 id="numberCorrect">#correct:</h2>
             </div>
-        </nav>
+            <div>
+                <input type="submit" value="Submit" id="submit-button">
+            </div>
+        </div>
     </container>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js " integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin=" anonymous "></script>
     <script src="assets/javascript/app.js "></script>

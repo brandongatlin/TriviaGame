@@ -1,8 +1,12 @@
+//timer
+//setTimeout(oneMinute, 1000 * 60);
+
+//function oneMinute()
+
 // global variables //
 var time = 60;
 var correct = 0;
 var incorrect = 0;
-var unanswered = 0;
 var timer;
 
 var questions = [{
@@ -60,7 +64,11 @@ var questions = [{
 //check to see if array of objects is correct
 console.log(questions[0].name) //1. What is the longest river in the world?
 
-//populate questions
+//$(document).ready(function() {
+
+//$("#start-button").on("click", function() {
+
+//populate questions and answers
 $("#start-button").on("click", function() {
     $("#triviaQuestion1").text(questions[0].name)
     $("#1a").text(questions[0].choices[0])
@@ -141,10 +149,25 @@ $("#start-button").on("click", function() {
     $("#10d").text(questions[9].choices[3])
 });
 
-//populate questions
-
-
-
+console.log(questions[0].choices[0])
 
 //check answers
-console.log(questions[0].choices[0])
+
+// trying to check answers without for loop
+//var answer1 = $("input[name=answer" + i + "]:checked").val();
+
+// function checkAnswers()
+// trying to check anwers with for loop
+// var answer = $("input[name=answer" + i + "]:checked").val();
+
+// for (var i = 0; i < questions.length; i++) {
+// if (answer === questions[i].answer) {
+//   correct++;
+//}
+
+//                        if (answer != questions[i].answer) {
+//                          incorrect++;
+//                    }
+//              }
+
+//    $("#submit-button").on("click", function(checkAnswers)
