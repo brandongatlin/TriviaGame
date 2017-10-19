@@ -11,12 +11,6 @@ var questions = [{
         answer: "Nile"
     },
     {
-        name: "1. What is the longest river in the world?",
-        choices: ["Nile", "Mississippi", "Ganges", "Amazon"],
-        answer: "Nile"
-    },
-
-    {
         name: "2. What is the largest lake in the world?",
         choices: ["Titicaca", "Victoria", "Lake Superior", "Caspian"],
         answer: "Caspian"
@@ -68,46 +62,89 @@ console.log(questions[0].name) //1. What is the longest river in the world?
 
 //populate questions
 $("#start-button").on("click", function() {
-    $("#triviaQuestion1").text(questions[1].name)
+    $("#triviaQuestion1").text(questions[0].name)
+    $("#1a").text(questions[0].choices[0])
+    $("#1b").text(questions[0].choices[1])
+    $("#1c").text(questions[0].choices[2])
+    $("#1d").text(questions[0].choices[3])
 });
 
 $("#start-button").on("click", function() {
-    $("#triviaQuestion2").text(questions[2].name)
+    $("#triviaQuestion2").text(questions[1].name)
+    $("#2a").text(questions[1].choices[0])
+    $("#2b").text(questions[1].choices[1])
+    $("#2c").text(questions[1].choices[2])
+    $("#2d").text(questions[1].choices[3])
 });
 
 $("#start-button").on("click", function() {
-    $("#triviaQuestion3").text(questions[3].name)
+    $("#triviaQuestion3").text(questions[2].name)
+    $("#3a").text(questions[2].choices[0])
+    $("#3b").text(questions[2].choices[1])
+    $("#3c").text(questions[2].choices[2])
+    $("#3d").text(questions[2].choices[3])
 });
 
 $("#start-button").on("click", function() {
-    $("#triviaQuestion4").text(questions[4].name)
+    $("#triviaQuestion4").text(questions[3].name)
+    $("#4a").text(questions[3].choices[0])
+    $("#4b").text(questions[3].choices[1])
+    $("#4c").text(questions[3].choices[2])
+    $("#4d").text(questions[3].choices[3])
 });
 
 $("#start-button").on("click", function() {
-    $("#triviaQuestion5").text(questions[5].name)
+    $("#triviaQuestion5").text(questions[4].name)
+    $("#5a").text(questions[4].choices[0])
+    $("#5b").text(questions[4].choices[1])
+    $("#5c").text(questions[4].choices[2])
+    $("#5d").text(questions[4].choices[3])
 });
 
 $("#start-button").on("click", function() {
-    $("#triviaQuestion6").text(questions[6].name)
+    $("#triviaQuestion6").text(questions[5].name)
+    $("#6a").text(questions[5].choices[0])
+    $("#6b").text(questions[5].choices[1])
+    $("#6c").text(questions[5].choices[2])
+    $("#6d").text(questions[5].choices[3])
 });
 
 $("#start-button").on("click", function() {
-    $("#triviaQuestion7").text(questions[7].name)
+    $("#triviaQuestion7").text(questions[6].name)
+    $("#7a").text(questions[6].choices[0])
+    $("#7b").text(questions[6].choices[1])
+    $("#7c").text(questions[6].choices[2])
+    $("#7d").text(questions[6].choices[3])
 });
 
 $("#start-button").on("click", function() {
-    $("#triviaQuestion8").text(questions[8].name)
+    $("#triviaQuestion8").text(questions[7].name)
+    $("#8a").text(questions[7].choices[0])
+    $("#8b").text(questions[7].choices[1])
+    $("#8c").text(questions[7].choices[2])
+    $("#8d").text(questions[7].choices[3])
 });
 
 $("#start-button").on("click", function() {
-    $("#triviaQuestion9").text(questions[9].name)
+    $("#triviaQuestion9").text(questions[8].name)
+    $("#9a").text(questions[8].choices[0])
+    $("#9b").text(questions[8].choices[1])
+    $("#9c").text(questions[8].choices[2])
+    $("#9d").text(questions[8].choices[3])
 });
 
 $("#start-button").on("click", function() {
-    $("#triviaQuestion10").text(questions[10].name)
+    $("#triviaQuestion10").text(questions[9].name)
+    $("#10a").text(questions[9].choices[0])
+    $("#10b").text(questions[9].choices[1])
+    $("#10c").text(questions[9].choices[2])
+    $("#10d").text(questions[9].choices[3])
 });
+
+//populate questions
 
 
 
 
 //check answers
+console.log(questions[0].choices[0])
